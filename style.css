@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://www.readersdigest.ca/wp-content/uploads/2016/12/how-to-tell-the-time-without-a-clock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+main{
+    display: grid;
+    grid-template-areas: "a a a" "b b c" "d d d";
+    justify-items: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    border:solid 1px;
+    margin:auto;
+    margin-top: 40px;
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 10px;
+    background-color:  rgb(97, 206, 129);
+    color:  rgb(0, 0, 0);
+}
+h1{
+    grid-area: a;
+
+}
+#entrada{
+    grid-area: b;
+    
+}
+.boton{
+    margin-top: 15px;
+    grid-area: c;
+    
+      
+}
+.salida{
+    grid-area: d;
+    margin-top: 30px;
+    width: auto;
+    height: 40px;
+    border-radius: 10%;
+    background-color: rgb(49, 133, 74);
+    padding: 10px;
+      
+}
+.mb-3{
+    width: 150px;
+}
